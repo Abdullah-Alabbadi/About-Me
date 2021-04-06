@@ -1,6 +1,32 @@
-header{
-    background-color: #9e9d89;
+header {
+  text-align: left;
+
+  padding: 10px;
+  background-color: #e4d3cf;
 }
-#information{
-background-color: #9e9d89;
+
+body {
+  background-color: #e4d3cf;
+  padding: 10px;
+}
+
+#information {
+  min-height: 200px;
+  min-width: 450px;
+  max-width: 650px;
+  text-align: left;
+  font-weight: bold;
+  margin: 10px;
+}
+
+footer {
+  font-weight: bold;
+  margin: 10px;
+}
+
+#me {
+  border-radius: 10px;
+  width: 250px;
+  height: 350px;
+  float: right;
 }
