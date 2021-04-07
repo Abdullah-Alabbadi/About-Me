@@ -180,7 +180,7 @@ for (let i = 3; i > 0; i--) {
 }}
 q6();
 
-
+function q7(){
 let Bestofme = ['sport', 'traveling', 'hanging out', 'coding'];
 let answer = prompt('Can you guess some of my personal interests?', 'love life, playing');
 answer = answer.toLowerCase();
@@ -202,7 +202,8 @@ for (let i = 5; i > 0; i--) {
 
     }
   }
-}
+}}
+q7();
 /*}
  else if (answer == Bestofme[1]) {
   score++;
