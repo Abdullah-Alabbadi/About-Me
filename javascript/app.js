@@ -34,6 +34,7 @@ switch (question1) {
   q1();
 
 // question 2
+function q2(){
 let question2 = prompt(" Are you excited of your future ", " Yes or No ");
 question2 = question2.toLowerCase();
 switch (question2) {
@@ -53,7 +54,8 @@ switch (question2) {
 
     alert(" Thank you ");
     break;
-}
+}}
+q2();
 
 // question 3
 let question3 = prompt(" Are you love coding ", " Yes or No ");
