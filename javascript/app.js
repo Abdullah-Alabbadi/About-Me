@@ -9,6 +9,7 @@ alert("Your welcome " + guestname);
 
 let score = 0;
 // question 1
+function q1(){
 let question1 = prompt(" Are you excited of my information ", " Yes or No ");
 question1 = question1.toLowerCase();
 switch (question1) {
@@ -29,9 +30,11 @@ switch (question1) {
     alert(" Thank you ");
 
     break;
-}
+} }
+  q1();
 
 // question 2
+function q2(){
 let question2 = prompt(" Are you excited of your future ", " Yes or No ");
 question2 = question2.toLowerCase();
 switch (question2) {
@@ -51,9 +54,11 @@ switch (question2) {
 
     alert(" Thank you ");
     break;
-}
+}}
+q2();
 
 // question 3
+function q3(){
 let question3 = prompt(" Are you love coding ", " Yes or No ");
 question3 = question3.toLowerCase();
 switch (question3) {
@@ -73,9 +78,11 @@ switch (question3) {
 
     alert(" Thank you ");
     break;
-}
+}}
+q3();
 
 // question 4
+function q4(){
 let question4 = prompt(" Are you older than 22  ", " Yes or No ");
 question4 = question4.toLowerCase();
 switch (question4) {
@@ -95,9 +102,11 @@ switch (question4) {
 
     alert(" Thank you ");
     break;
-}
+}}
+q4();
 
 // question 5
+function q5(){
 let question5 = prompt(" Can we meet Today ", " Yes or No ");
 question5 = question5.toLowerCase();
 switch (question5) {
@@ -117,9 +126,11 @@ switch (question5) {
 
     alert(" Thank you ");
     break;
-}
+}}
+q5();
 
 // question 6
+function q6(){
 let question6 = prompt("How many user vist my web site do you think until now? ", " Make sure to insert Number only ");
 
 for (let i = 3; i > 0; i--) {
@@ -166,9 +177,10 @@ for (let i = 3; i > 0; i--) {
 
     }
   }
-}
+}}
+q6();
 
-
+function q7(){
 let Bestofme = ['sport', 'traveling', 'hanging out', 'coding'];
 let answer = prompt('Can you guess some of my personal interests?', 'love life, playing');
 answer = answer.toLowerCase();
@@ -190,7 +202,8 @@ for (let i = 5; i > 0; i--) {
 
     }
   }
-}
+}}
+q7();
 /*}
  else if (answer == Bestofme[1]) {
   score++;
