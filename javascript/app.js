@@ -145,7 +145,7 @@ for (let i = 3; i > 0; i--) {
     alert('Too high! you have ' + i + ' attempts left');
     question6 = prompt('Try to repeat your answer with a better guess ');
     if (i == 1) {
-      // alert('Sorry your answer not correct but still good do not worry' + ' your final score on my information is ' + score);
+      alert('Sorry your answer not correct but still good do not worry' + ' your final score on my information is ' + score);
 
     }
   }
@@ -161,7 +161,7 @@ for (let i = 3; i > 0; i--) {
   else if (question6 < 60) {
     alert('So close! you have ' + i + ' attempts');
     question6 = prompt('Try to repeat your answer with a better guess ');
-    if (i == 1) {
+    if (i === 1) {
       alert('Sorry your answer not correct but still good do not worry' + ' your final score on my information is ' + score);
 
     }
@@ -174,41 +174,47 @@ let answer = prompt('Can you guess some of my personal interests?', 'love life, 
 answer = answer.toLowerCase();
 for (let i = 5; i > 0; i--) {
 
-  if (answer == Bestofme[0]) {
+  if (Bestofme[0] == answer || Bestofme[1] == answer || Bestofme[2] == answer || Bestofme[3] == answer) {
     score++;
     alert('You do it congratulation, your answer right, you pick one of my interest correctly' + ' your final score on my information is ' + score);
 
     break;
-
-
-  }
-  else if (answer == Bestofme[1]) {
-    score++;
-    alert('You do it congratulation, your answer right, you pick one of my interest correctly' + ' your final score on my information is ' + score);
-
-    break;
-
-  }
-  else if (answer == Bestofme[2]) {
-    score++;
-    alert('You do it congratulation, your answer right, you pick one of my interest correctly' + ' your final score on my information is ' + score);
-
-    break;
-
   }
 
-  else if (answer == Bestofme[3]) {
-    score++;
-    alert('You do it congratulation, your answer right, you pick one of my interest correctly' + ' your final score on my information is ' + score);
-
-    break;
-
-  }
   else {
 
-    alert('So close! you have ' + i + ' attempts');
+    alert('So close! you have ' + i + ' attempts left');
+    answer = prompt('Can you guess some of my personal interests?', 'love life, playing');
+    if (i == 1) {
+      alert('Sorry your answer not correct but still good do not worry' + ' your final score on my information is ' + score);
+
+    }
   }
 }
+/*}
+ else if (answer == Bestofme[1]) {
+  score++;
+   alert('You do it congratulation, your answer right, you pick one of my interest correctly' + ' your final score on my information is ' + score);
+
+   break;
+
+ }
+ else if (answer == Bestofme[2]) {
+   score++;
+ alert('You do it congratulation, your answer right, you pick one of my interest correctly' + ' your final score on my information is ' + score);
+
+ break;
+
+}
+
+else if (answer == Bestofme[3]) {
+ score++;
+ alert('You do it congratulation, your answer right, you pick one of my interest correctly' + ' your final score on my information is ' + score);
+
+ break;
+
+}
+}*/
 
 
 alert("Thank you for your time " + guestname);
