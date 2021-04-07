@@ -130,6 +130,7 @@ switch (question5) {
 q5();
 
 // question 6
+function q6(){
 let question6 = prompt("How many user vist my web site do you think until now? ", " Make sure to insert Number only ");
 
 for (let i = 3; i > 0; i--) {
@@ -176,7 +177,8 @@ for (let i = 3; i > 0; i--) {
 
     }
   }
-}
+}}
+q6();
 
 
 let Bestofme = ['sport', 'traveling', 'hanging out', 'coding'];
