@@ -106,6 +106,7 @@ switch (question4) {
 q4();
 
 // question 5
+function q5(){
 let question5 = prompt(" Can we meet Today ", " Yes or No ");
 question5 = question5.toLowerCase();
 switch (question5) {
@@ -125,7 +126,8 @@ switch (question5) {
 
     alert(" Thank you ");
     break;
-}
+}}
+q5();
 
 // question 6
 let question6 = prompt("How many user vist my web site do you think until now? ", " Make sure to insert Number only ");
