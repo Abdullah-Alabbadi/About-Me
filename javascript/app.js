@@ -9,6 +9,7 @@ alert("Your welcome " + guestname);
 
 let score = 0;
 // question 1
+function q1(){
 let question1 = prompt(" Are you excited of my information ", " Yes or No ");
 question1 = question1.toLowerCase();
 switch (question1) {
@@ -29,7 +30,8 @@ switch (question1) {
     alert(" Thank you ");
 
     break;
-}
+} }
+  q1();
 
 // question 2
 let question2 = prompt(" Are you excited of your future ", " Yes or No ");
